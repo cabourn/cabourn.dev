@@ -1,0 +1,9 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+{% capture page_title %}{{ page.title | strip_html | strip_newlines }}{% endcapture %}
+<title>Owen Clark | Full Stack Software Engineer</title>
+
+<meta name="description" content="{{ site.metadata.description }}" />
+
+<link rel="stylesheet" href="{% webpack_path css %}" />
+<script src="{% webpack_path js %}" defer></script>
